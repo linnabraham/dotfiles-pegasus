@@ -49,3 +49,6 @@ alias gs='git status'
 export HISTSIZE=10000
 export SAVEHIST=1000000
 export PATH="$PATH:/mnt/home/project/clinn/.local/bin"
+
+module add fftw-3.3.10
+alias carta='APPIMAGE_EXTRACT_AND_RUN=1 ./carta-v4.1.0-x86_64.AppImage --no_browser'
